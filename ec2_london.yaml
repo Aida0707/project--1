@@ -6,7 +6,7 @@
   tasks:
   - name: Create instances
     ec2:
-      key_name: team4_key
+      key_name: team_4
       instance_type: t2.medium
       image: ami-0f2469d3a9616608d
       count: 1
