@@ -1,6 +1,6 @@
 ---
 - name: Filebeat Installation
-  hosts: 52.19.32.80
+  hosts: localhost
   become: true
   become_method: sudo
   user: centos
